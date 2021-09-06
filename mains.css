@@ -1,0 +1,54 @@
+html{
+    text-align: center;
+    font-family: Arial;
+}
+
+#head{
+    font-size: xxx-large;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#input-task{
+    width: 35%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: purple;
+}
+
+#add-task-button{
+    background-color: pink;
+    height: 30px;
+    width: 100px;
+}
+
+#task-list{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: -45px;
+}
+
+.task{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+}
+
+
+.delete-btn{
+    border: 0;
+    background-color: indianred;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+span{
+    margin-left: 2px;
+}
